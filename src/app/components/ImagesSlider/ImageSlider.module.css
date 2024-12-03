@@ -1,19 +1,18 @@
 .slider {
     display: flex;
     gap: 1rem;
-    animation: scroll 15s linear infinite;
-  }
-  
-  @keyframes scroll {
+    animation: scroll 30s linear infinite; /* Slower for a smoother effect */
+}
+
+@keyframes scroll {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%);
+        transform: translateX(-50%); /* Scroll half of the duplicated content */
     }
-  }
-  
-  .slide {
+}
+
+.slide {
     flex-shrink: 0;
-  }
-  
+}

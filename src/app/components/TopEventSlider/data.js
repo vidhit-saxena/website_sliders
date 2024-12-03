@@ -29,6 +29,24 @@ const data = [
         description: "ABResh Events | Crafting Unforgettable Experiences",
         image: "/images/group.jpg",
     },
+    {
+        title: "International Events",
+        date: "Jan 21, 2023",
+        description: "ABResh Events | Crafting Unforgettable Experiences",
+        image: "/images/group.jpg",
+    },
+    {
+        title: "National Events",
+        date: "Jan 21, 2023",
+        description: "ABResh Events | Crafting Unforgettable Experiences",
+        image: "/images/expo.jpg",
+    },
+    {
+        title: "National Events",
+        date: "Jan 21, 2023",
+        description: "ABResh Events | Crafting Unforgettable Experiences",
+        image: "/images/expo.jpg",
+    },
 ];
 
 export default data;
